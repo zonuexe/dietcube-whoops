@@ -1,0 +1,21 @@
+{
+    "name": "zonuexe/dietcube-whoops",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "USAMI Kenta",
+            "email": "tadsan@zonu.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DietcubeWhoops\\": "src/"
+        }
+    },
+    "require": {
+        "dietcube/dietcube": "^1.0"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.0"
+    }
+}
